@@ -1,0 +1,24 @@
+.jumbotron { background:url(https://www.shibumaku.jp/wp-content/uploads/2020/05/IMG_6133A-1024x683.jpg) center no-repeat; background-size: cover;}
+small{ font-style: italic; margin-left: 1vh; }
+
+.gsc-control-cse{
+    background-color:transparent!important;
+    border:none!important;
+}
+.gsc-input-box{
+    border-radius:0.5vh;
+}
+
+.circle{
+    width: 4.5vh;
+    height: 4.5vh;
+    border-radius: 50%;
+    background-color:darkgray;/*背景色*/
+    text-align:center;
+    line-height: 4.6vh;
+    font-size:3.3vh;
+  }
+
+.topbar-block-btn{
+    margin: 0 1vh;
+}
