@@ -81,7 +81,7 @@ small{ font-style: italic; margin-left: 1vh; }
     transition: 0.06s all;
 }
 .title:hover{
-    transform: translate(3.8vh,0) scale(1.2,1.2);
+    transform: translate(2.0vw,0) scale(1.2,1.2);
     transition: 0.1s all;
 }
 
