@@ -13,7 +13,7 @@ small{ font-style: italic; margin-left: 1vh; }
     width: 4.5vh;
     height: 4.5vh;
     border-radius: 50%;
-    background-color:darkgray;/*背景色*/
+    background-color:darkslategray;/*背景色*/
     text-align:center;
     line-height: 4.6vh;
     font-size:3.3vh;
