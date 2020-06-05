@@ -1,5 +1,59 @@
-.jumbotron { background:url(https://www.shibumaku.jp/wp-content/uploads/2020/05/IMG_6133A-1024x683.jpg) center no-repeat; background-size: cover;}
+/* .jumbotron { background:url(https://www.shibumaku.jp/wp-content/uploads/2020/05/IMG_6133A-1024x683.jpg) center no-repeat; background-size: cover !important; height:50vh; } */
 small{ font-style: italic; margin-left: 1vh; }
+.jumbotronslide > .container h1 , .jumbotronslide > .container p{
+    background: linear-gradient(to left, rgba(30,30,30,0), rgba(30, 30, 30, 1))
+}
+.swiper-container {
+    width: 100%;
+    height: 60vh;
+}
+.swiper-button-next + .swiper-button-prev {
+    color:white;
+}
+/* 全体のスタイル */
+.swiper-wrapper {
+	width: 100%;
+	height: 250px;
+}
+/* 全スライド共通スタイル */
+.swiper-slide {
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+    line-height: 250px;
+    position: relative;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-slide > h1, .swiper-slide > h2, .swiper-slide > h3, .swiper-slide > h4, .swiper-slide > h5, .swiper-slide > h6, .swiper-slide > p{
+    position: absolute;
+}
+.swiper-slide-title, .swiper-slide-subtitle {
+    display:inline;
+    left:20vw;
+    background: linear-gradient(to left,rgba(30,30,30,0), rgba(30,30,30,1));
+}
+.swiper-slide-title {
+    top:15vh;
+    font-size:6vh;
+}
+.swiper-slide-subtitle {
+    top:23vh;
+    font-size:3vh;
+}
+/* 背景画像部分のスタイル */
+.parallax-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
 
 .gsc-control-cse{
     background-color:transparent!important;
@@ -29,4 +83,44 @@ small{ font-style: italic; margin-left: 1vh; }
 .title:hover{
     transform: translate(3.8vh,0) scale(1.2,1.2);
     transition: 0.1s all;
+}
+
+.darknavbar .darknav a {
+    position: relative;
+  }
+.darknavbar .darknav a::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #6c757d;
+    transition: 0.2s all cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.darknavbar .darknav a:hover::after {
+    width: 100%;
+}
+.darknav li a {
+    width: auto;
+    text-align:center;
+}
+.darknav .border {
+    margin: 0 3vh;
+}
+
+.topbar-block-btn .circle{
+    transition: 0.2s all;
+}
+.topbar-block-btn:hover > .circle{
+    transform: scale(1.1,1.1) rotateY(360deg);
+    transition: 0.5s all;
+}
+.topbar-block-btn{
+    transition:0.2s all;
+}
+.topbar-block-btn:hover > .text-light{
+    color:lightgray !important;
+    transition: 0.2s all;
 }

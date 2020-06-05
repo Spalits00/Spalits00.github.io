@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!--[if lt IE 9]>
   <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -43,11 +44,23 @@
       <script async src="https://cse.google.com/cse.js?cx=016298688012814855947:-rfcd0x85mm"></script>
       <div class="gcse-search"></div>
     </div>
-  </nav>   
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark nav.fixed-top justify-content-center">
-    <ul class="navbar-nav">
+  </nav>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark nav.fixed-top justify-content-center darknavbar">
+    <ul class="navbar-nav darknav">
       <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
+          <a class="nav-link" href="#">課題課題</a>
+      </li>
+      <div class="border border-secondary"></div>
+      <li class="nav-item">
+          <a class="nav-link" href="#">課題課題まずい</a>
+      </li>
+      <div class="border border-secondary"></div>
+      <li class="nav-item">
+          <a class="nav-link" href="#">課題燃やしたい</a>
+      </li>
+      <div class="border border-secondary"></div>
+      <li class="nav-item">
+          <a class="nav-link" href="#">課題いやだ</a>
       </li>
       <div class="border border-secondary"></div>
       <li class="nav-item">
@@ -55,72 +68,94 @@
       </li>
       <div class="border border-secondary"></div>
       <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
+          <a class="nav-link" href="#">課題くんっｱ</a>
       </li>
       <div class="border border-secondary"></div>
       <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
-      </li>
-      <div class="border border-secondary"></div>
-      <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
-      </li>
-      <div class="border border-secondary"></div>
-      <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
-      </li>
-      <div class="border border-secondary"></div>
-      <li class="nav-item">
-          <a class="nav-link" href="#">課題課題ｱｱｱｱｱ</a>
+          <a class="nav-link" href="#">うおおおおおお</a>
       </li>
     </ul>
   </nav>
-  <div class="jumbotron">
+  <!-- <div style="transition: 0.1s all;" class="jumbotron">
     <div class="container">
       <h1 style="color:white;">お前は課題をやれ</h1>
       <p style="color:white;">ああああああああああああああああああああああああああああ</p>
     </div>
+  </div> -->
+  <!-- スライダー全体を括るメインコンテナ -->
+  <div class="swiper-container">
+    <!-- 全スライドをまとめるラッパー -->
+    <div class="swiper-wrapper">
+        <!-- 各スライド -->
+        <div class="swiper-slide">
+          <h1 class="swiper-slide-title">お前は課題やっとけ</h1>
+          <h2 class="swiper-slide-subtitle">あああああああああああ</h2>
+          <img src="https://www.shibumaku.jp/wp-content/uploads/2020/05/IMG_6133A-1024x683.jpg">
+        </div>
+        <div class="swiper-slide">
+          <h1 class="swiper-slide-title">課題こそが正義</h1>
+          <h2 class="swiper-slide-subtitle">あああああああああああ</h2>
+          <img src="https://www.kaijo.ed.jp/wp-content/themes/kaijo-sp/assets/img/schoolhouse_pic2.jpg">
+        </div>
+        <div class="swiper-slide">
+          <h1 class="swiper-slide-title">課題嫌あああああああああ</h1>
+          <h2 class="swiper-slide-subtitle">あああああああああああ</h2>
+          <img src="https://www.shibumaku.jp/wp-content/uploads/2020/05/IMG_6133A-1024x683.jpg">
+        </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
-  <div class="m-3">
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-  </div>
-  <hr style="border-color:lightgray; border-width:2vh;">
-  <div class="m-3">
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-  </div>
-  <hr style="border-color:lightgray; border-width:2vh;">
-  <div class="m-3">
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-  </div>
-  <hr style="border-color:lightgray; border-width:2vh;">
-  <div class="m-3">
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
-    <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
-    <hr>
-    <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+  <div id="main-textContent">
+    <div class="m-3">
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+    </div>
+    <hr style="border-color:lightgray; border-width:2vh;">
+    <div class="m-3">
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+    </div>
+    <hr style="border-color:lightgray; border-width:2vh;">
+    <div class="m-3">
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+    </div>
+    <hr style="border-color:lightgray; border-width:2vh;">
+    <div class="m-3">
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+      <h2 class="subtitle">お知らせ<small class="text-muted">Information</small></h2>
+      <hr>
+      <p><span class="text-muted"><small>2020.4.4. </small></span><span style="font-family:sans-serif;">新３年生が登校しました！</span></p>
+    </div>
   </div>
   
   <!-- SCRIPTS -->
   <!-- Example: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
   <script type="text/javascript" src="../packages/js/jquery-3.4.1.js"></script>
   <script type="text/javascript" src="../packages/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../packages/js/anime.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jumbotron.js"></script>
 </body>
 </html>
 
